@@ -9,7 +9,7 @@ endif ()
 option(BUILD_SHARED_LIBS "Build a shared library instead of static" OFF)
 option(NFD_BUILD_TESTS "Build tests for nfd" ${nfd_ROOT_PROJECT})
 option(NFD_BUILD_SDL2_TESTS "Build SDL2 tests for nfd" OFF)
-option(NFD_INSTALL "Generate install target for nfd" ${nfd_ROOT_PROJECT})
+option(NFD_INSTALL "Generate install target for nfd" ON)
 
 set(nfd_PLATFORM Undefined)
 if(WIN32)
